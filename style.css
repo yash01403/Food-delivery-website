@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+header {
+  background: #ff3d00;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  margin: 15px;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.order-btn {
+  background: #ff3d00;
+}
+
+.order-btn:hover {
+  background: #d63000;
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+}
